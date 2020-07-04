@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App'
+import Principal from './pages/Principal';
+import './css/Global.css';
 
 
 ReactDOM.render(
-  <App />,
+  <Principal />,
   document.getElementById('page')
 );
 

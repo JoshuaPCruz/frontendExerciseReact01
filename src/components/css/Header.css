@@ -1,0 +1,15 @@
+.header{
+  padding: var(--spacing) 0px;
+}
+
+.logo {
+  display: flex;
+  margin: 0 auto;
+  padding: var(--spacing) 0px;
+}
+
+.navbar {
+  padding: 0px 0px var(--spacing) 0px;
+  border-top: 2px solid var(--colorDark);
+  border-bottom: 2px solid var(--colorDark);
+}

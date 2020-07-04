@@ -1,0 +1,89 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 16px;
+  color: var(--colorDark);
+  padding: var(--spacing) 0px;
+}
+
+h1{
+  font-size: var(--titleSize);
+  line-height: 35px;
+}
+
+h3{
+  font-size: var(--textSize);
+  font-weight: 300;
+  padding: var(--spacing) 0px;
+  text-align: center;
+}
+
+p{
+  text-align: justify;
+  font-size: var(--textSize);
+}
+
+:root{
+  /*Color*/
+  --colorDark: #000;
+  /*FontSize*/
+  --titleSize: 2.3em;
+  --SubtitleSize: 1.8em;
+  --textSize: 1.3em;
+  /*Spacing*/
+  --spacingMin: 5px;
+  --spacing: 10px;
+  --spacingx2: 20px;
+  --spacingx3: 30px;
+}
+
+.container{
+  max-width: 1024px;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  margin: 0px auto;
+}
+
+.reset-style {
+  text-align: initial;
+  padding: 0px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-column2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-all {
+  margin: var(--spacing);
+}
+
+.padding-sides {
+  padding: 0px var(--spacing);
+}
+
+.padding-left{
+  padding-left: var(--spacingMin);
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  padding: 0px 10px;
+}
